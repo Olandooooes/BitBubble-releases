@@ -21,7 +21,6 @@
 
 **English:** BitBubble is a Windows social desktop pet built with Electron. Its core experience connects desktop interaction with cross-device visits, messages and shared memories. This public repository provides releases and feedback; the application source remains private.
 
-[BitBubble 详细工程案例：需求、实现、验证与交付](https://github.com/Olandooooes/Xingo-releases/blob/main/cases/bitbubble.md) · [完整作品集](https://github.com/Olandooooes/Xingo-releases/blob/main/PORTFOLIO.md)
 
 BitBubble（比特泡泡）是一款 Windows 轻社交桌宠。桌宠可以陪你摸鱼、拜访好友、携带纸条、一起玩轻量小游戏，并把真实互动保存成回忆卡。
 
