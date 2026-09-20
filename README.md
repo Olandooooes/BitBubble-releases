@@ -1,5 +1,28 @@
 # BitBubble 官方发布
 
+## 项目展示 / Project overview
+
+**BitBubble 是一个从桌面交互延伸到跨设备社交的产品。** 它把“陪伴”落实为可操作的行为：宠物出发、到访朋友桌面、交换纸条、互动后返回，并留下回忆。
+
+### 实现重点
+
+- **桌面客户端**：Electron 透明置顶窗口、鼠标穿透、拖动与原生菜单，兼顾桌宠展示和管理界面。
+- **实时交互**：WebSocket 连接与重连，串联两台设备上的出发、到访与返回状态。
+- **交付**：Windows 安装包、版本归档、文件校验和公开反馈入口。源码保持私有。
+- **工程关注点**：桌宠窗口与管理界面的状态一致性、断线后的串门恢复、安装包与开发环境的行为差异。
+
+### 建议体验路径
+
+1. 从官网或 Release 安装 Windows 版本，创建并调整桌宠。
+2. 使用两台电脑添加好友，完成一次出发、到访、纸条回复和返回。
+3. 观察两端状态与回忆记录；遇到异常时记录版本和复现步骤。
+
+这是供体验者使用的演示路径，不代表本次文档更新重新完成了双设备测试。公开正式版以 Release 为准；macOS 尚无公开正式版。
+
+**English:** BitBubble is a Windows social desktop pet built with Electron. Its core experience connects desktop interaction with cross-device visits, messages and shared memories. This public repository provides releases and feedback; the application source remains private.
+
+[更多作品与工程案例](https://github.com/Olandooooes/Xingo-releases/blob/main/PORTFOLIO.md)
+
 BitBubble（比特泡泡）是一款 Windows 轻社交桌宠。桌宠可以陪你摸鱼、拜访好友、携带纸条、一起玩轻量小游戏，并把真实互动保存成回忆卡。
 
 > 本仓库是 BitBubble 的官方发布与反馈仓库，仅提供安装包、校验文件和版本记录。BitBubble 是闭源商业软件，源代码保存在私有仓库中，不在此公开。
